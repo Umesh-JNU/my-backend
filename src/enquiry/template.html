@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Notification</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      border: 1px solid #d3d3d3;
+    }
+
+    .header {
+      background-color: #f8f8f8;
+      padding: 16px;
+      text-align: center;
+    }
+
+    .details {
+      padding: 20px;
+    }
+
+    .summary {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>Contact Information</h2>
+    </div>
+
+    <div class="details">
+      <div class="summary">
+        <p><strong>Name:</strong> {{name}}</p>
+        <p><strong>Email:</strong> {{email}}</p>
+        <p><strong>Mobile No.:</strong> {{mobile}}</p>
+        <p><strong>Message: </strong> {{message}}</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
